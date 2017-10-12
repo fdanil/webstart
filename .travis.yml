@@ -13,7 +13,7 @@ before_script:
 #  - npm install -g @angular/cli
 
 script:
-  ./configure && make
+  - node -v
 #  - ng build --prod
 
 after_success:
