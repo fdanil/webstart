@@ -12,7 +12,8 @@ before_script:
   - npm install -g firebase-tools
 #  - npm install -g @angular/cli
 
-#script:
+script:
+  ./configure && make
 #  - ng build --prod
 
 after_success:
